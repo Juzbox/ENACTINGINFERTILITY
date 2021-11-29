@@ -39,7 +39,7 @@ h2 {
 
 .header {
   
-    padding-top: 3em;
+    padding-top: 0px;
     padding-bottom: 3em;
 }
 
@@ -76,11 +76,64 @@ font-style: normal;
     -webkit-overflow-scrolling: touch;
     overflow: scroll;
     overflow-x: hidden;
-    height: 80%;
+    height: 90%;
     width: 100%;
     top: 0;
     left: 0;
     margin-top: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*//rules*/
+      .box {
+              font-family: 'Assistant', sans-serif;
+    display:inline;
+    text-align: left;
+    font-size: 12pt;
+    color: MidnightBlue;
+    line-height: 1.3em;
+    font-weight: lighter;
+          margin-top: 10vh;
+          
+        display: flex;
+      }
+
+      .one {
+        flex: 1 1 20vw;
+          margin-right: 2vw;
+      }
+
+      .two {
+        flex: 1 1 20vw;
+          margin-left: 2vw;
+      }
+
+      .three {
+        flex: 1 1 20vw;
+          margin-left: 2vw;
+      }
+
+img{
+    object-position: top;
+    align-items: flex-start;
+    width: 25vw;
+    object-fit:scale-down;
+}
+
+.outerContainerRules {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -95,7 +148,7 @@ font-style: normal;
 
 .container {
     display: block;
-    max-width: 800px;
+    max-width: 80vw;
     
     margin: 0 auto;
     padding: 20px;
@@ -114,17 +167,17 @@ p {
     font-family: 'Assistant', sans-serif;
     display:inline;
     text-align: left;
-    font-size: 16pt;
+    font-size: 24pt;
     color: MidnightBlue;
-    line-height: 1.7em;
+    line-height: 1.3em;
     font-weight: lighter;
 }
 
 .breaknow {
     display:block;
- font-size: 16pt;
+ font-size: 24pt;
     color: MidnightBlue;
-    line-height: 1.7em;
+    line-height: 1.3em;
     font-weight: lighter;
 }
 /*
@@ -135,7 +188,7 @@ p::first-line {
 
 .highlight {
     display:inline;
-    font-size: 16pt;
+    font-size: 24pt;
     color: MediumVioletRed;
 
     line-height: 1.7em;
@@ -232,12 +285,12 @@ img {
 #controls {
     color: MidnightBlue;
     z-index: 4;
-    font-size: 9pt;
+    font-size: 14pt;
     text-align: center;
     padding-bottom: 6px;
     position: fixed;
-    right: 14px;
-    top: 4px;
+    right: 34px;
+    top: 10px;
     user-select: none;
   background:MistyRose; 
     transition: color 0.6s, background 0.6s;
